@@ -1,7 +1,7 @@
 # Paintings detection and segmentation
 This project aims at detecting and segmenting paintings located in an art gallery (in this case the Galleria Estense located in the city of Modena). More functions such as, paintings retraival, people detection (Yolov5 based) and localization are also included.
-![paintings_detection_segmentation](assets/pds.png)
-![people_detection_gaze](assets/pdg.png)
+![paintings_detection_segmentation](assets/pds.gif)
+![people_detection_gaze](assets/pdg.gif)
 
 # Introduction
 The code was written for my university exam of Computer Vision Systems.
@@ -57,18 +57,18 @@ Note about detectron2: To install for Windows follow the guidelines on this webs
 
 # Usage
 
-Usage examples:
-	To see all the comand line options:
-		python main.py -h
-	Example of comand to excute all the exercises:
-		python main.py 0 -vp 'path/to/video/video.mp4' -fts 10
-	Example of comand to excute the exercise of paintings replacement in the 3D model:
-		python main.py 1
-	Example of comand to save a video with the various detection and segmentation results:
-		python main.py 2 -fts 1 -vp 'path/to/video/video.mp4' -oe -ovdp 'path/to/output/directory/' -ovt 'ouput-video-title'
-		
+Usage examples:</br>
+	To see all the comand line options:</br>
+		python main.py -h</br>
+	Example of comand to excute all the exercises:</br>
+		python main.py 0 -vp 'path/to/video/video.mp4' -fts 10</br>
+	Example of comand to excute the exercise of paintings replacement in the 3D model:</br>
+		python main.py 1</br>
+	Example of comand to save a video with the various detection and segmentation results:</br>
+		python main.py 2 -fts 1 -vp 'path/to/video/video.mp4' -oe -ovdp 'path/to/output/directory/' -ovt 'ouput-video-title'</br>
+		</br></br>
 
-	Note: Every time an output window showing any result is opened it will wait for a key to continue.
+	Note: Every time an output window showing any result is opened it will wait for a key to continue.</br>
 
 
 </br>
