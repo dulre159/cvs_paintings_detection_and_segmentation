@@ -3,17 +3,17 @@ This project aims at detecting and segmenting paintings located in an art galler
 ![paintings_detection_segmentation](assets/pds.gif)
 ![people_detection_gaze](assets/pdg.gif)
 
-# Introduction
+## Introduction
 The code was written for my university exam of Computer Vision Systems.
 
-# PrePrerequisites
+## PrePrerequisites
 
 Prepare a python or conda venv and execute to fetch all the required packages:
 * pip install -r requirements.txt
 
 Note about detectron2: To install for Windows follow the guidelines on this website https://medium.com/@dgmaxime/how-to-easily-install-detectron2-on-windows-10-39186139101c
 
-# Performance
+## Performance
 - Detectron2 tested on the **paintings_db** dataset:
 <table><tbody>
 <tr>
@@ -55,7 +55,7 @@ Note about detectron2: To install for Windows follow the guidelines on this webs
 
 </tbody></table>
 
-# Usage
+## Usage
 
 
 * To see all the comand line options:</br>
