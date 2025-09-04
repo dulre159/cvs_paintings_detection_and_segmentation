@@ -57,18 +57,19 @@ Note about detectron2: To install for Windows follow the guidelines on this webs
 
 # Usage
 
-Usage examples:</br>
-	To see all the comand line options:</br>
-		python main.py -h</br>
-	Example of comand to excute all the exercises:</br>
-		python main.py 0 -vp 'path/to/video/video.mp4' -fts 10</br>
-	Example of comand to excute the exercise of paintings replacement in the 3D model:</br>
-		python main.py 1</br>
-	Example of comand to save a video with the various detection and segmentation results:</br>
-		python main.py 2 -fts 1 -vp 'path/to/video/video.mp4' -oe -ovdp 'path/to/output/directory/' -ovt 'ouput-video-title'</br>
-		</br></br>
 
-	Note: Every time an output window showing any result is opened it will wait for a key to continue.</br>
+*To see all the comand line options:</br>
+      ```python main.py -h</br>```
+*Example of comand to excute all the exercises:</br>
+      ```python main.py 0 -vp 'path/to/video/video.mp4' -fts 10</br>```
+*Example of comand to excute the exercise of paintings replacement in the 3D model:</br>
+      ```python main.py 1</br>```
+*Example of comand to save a video with the various detection and segmentation results:</br>
+      ```python main.py 2 -fts 1 -vp 'path/to/video/video.mp4' -oe -ovdp 'path/to/output/directory/' -ovt 'ouput-video-title'</br>```
+      
+</br>
+
+Note: Every time an output window showing any result is opened it will wait for a key to continue.</br>
 
 
 </br>
